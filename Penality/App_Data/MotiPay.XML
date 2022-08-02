@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DARSSectorAPI</name>
+    </assembly>
+    <members>
+        <member name="M:DARSSectorAPI.Controllers.AuthenticateExController.GetAuthToken(System.String)">
+            <summary>
+                Returns auth token for the validated user.
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DARSSectorAPI.Filters.BasicAuthenticationIdentity">
+            <summary>
+                Basic Authentication identity
+            </summary>
+        </member>
+        <member name="T:DARSSectorAPI.Filters.GenericBasicAuthenticationFilter">
+            <summary>
+                Generic basic Authentication filter.
+            </summary>
+        </member>
+        <member name="T:PasswordSetting">
+            <summary>
+                Summary description for CPassword
+            </summary>
+        </member>
+    </members>
+</doc>
